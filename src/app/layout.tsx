@@ -11,13 +11,13 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.hosnaqasmei.com/'),
-  title: { default: 'Hosna Qasmei', template: '%s | Hosna Qasmei' },
+  title: { default: 'Jishan Ahmed', template: '%s | Jishan Ahmed' },
   description: 'Developer & YouTuber',
   openGraph: {
-    title: 'Hosna Qasmei',
+    title: 'Jishan Ahmed',
     description: 'Developer & YouTuber.',
     url: 'https://www.hosnaqasmei.com/',
-    siteName: 'Hosna Qasmei',
+    siteName: 'Jishan Ahmed',
     locale: 'en_US',
     type: 'website',
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Hosna Qasmei',
+    title: 'Jishan Ahmed',
     card: 'summary_large_image',
   },
 };
@@ -61,9 +61,10 @@ export default function RootLayout({
         />
         <script
           src="https://beamanalytics.b-cdn.net/beam.min.js"
-          data-token="a07e2826-5910-4684-9e69-0ec4388a0509"
+          data-token="69f9341a-eed6-4423-ba59-e66b4daebd87"
           async
-        ></script>
+        >
+        </script>
       </head>
       <body
         className={`bg-primary text-secondary text-sm md:text-base ${inter.className}`}

@@ -6,22 +6,26 @@ import { XIcon } from '@/components/icons/x';
 import { YouTubeIcon } from '@/components/icons/youtube';
 
 export const CONFIG = {
-  name: 'Hosna Qasmei',
+  name: 'Jishan Ahmed',
   headshot:
     'https://res.cloudinary.com/duud9d8dv/image/upload/v1696801306/headshot_mlyfwz.jpg',
   title: 'Software Developer',
-  description: `Hi, I'm Hosna. I'm based in Los Angeles, California. In addition to coding, I also make YouTube videos, sharing my knowledge 
-and experience on web & mobile development.`,
+  description: `Hi, I'm Jishan. I'm based in Assam, India. In addition to coding, I also write blog articles, sharing my knowledge 
+and experience on blockchain & web development.`,
   socials: [
-    { platform: 'X', link: 'https://twitter.com/hqasmei', icon: <XIcon /> },
+    {
+      platform: 'X',
+      link: 'https://twitter.com/JishanCodes',
+      icon: <XIcon />
+    },
     {
       platform: 'GitHub',
-      link: 'https://github.com/hqasmei',
+      link: 'https://github.com/imjishan',
       icon: <GithubIcon />,
     },
     {
-      platform: 'YouTube',
-      link: 'https://www.youtube.com/@hqasmei',
+      platform: 'Instagram',
+      link: 'https://www.instagram.com/jishan.dv/',
       icon: <YouTubeIcon />,
     },
     {
@@ -67,7 +71,7 @@ and experience on web & mobile development.`,
       image:
         'https://res.cloudinary.com/duud9d8dv/image/upload/v1708108981/portfolio/repo-mapper_yntapy.png',
       link: 'https://repo-mapper.vercel.app/',
-    }, 
+    },
     {
       featured: false,
       name: 'Open Graph Vault',
