@@ -19,7 +19,7 @@ export default function Header() {
     <header className="flex flex-col md:flex-row md:justify-between md:items-center space-y-4 md:space-y-0 w-full md:px-6 max-w-3xl animate-slide-from-down-and-fade-1">
       <div className="flex flex-row items-center space-x-3">
         <Image
-          src={CONFIG.headshot}
+          src="jishan.jpg"
           alt=""
           width={100}
           height={100}
